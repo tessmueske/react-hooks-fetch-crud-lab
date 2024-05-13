@@ -5,6 +5,12 @@ import QuestionList from "./QuestionList";
 
 function App() {
   const [page, setPage] = useState("List");
+  const [questions, setQuestions] = useState("")
+
+  // function deleteQuestion(deletedQuestion) {
+  //   const updatedQuestions = questions.filter((question) => question.prompt !== deletedQuestion.prompt);
+  //   setQuestions(updatedQuestions);
+  // }
 
   return (
     <main>
